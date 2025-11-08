@@ -1,0 +1,17 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# VSCode settings
+.vscode/
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# --- Log Folder Rules ---
+# Ignore all files and folders inside any subdirectory of 'logs'
+logs/*/*
+
+# ...BUT, do NOT ignore (re-include) the text log files.
+!logs/*/*.log
